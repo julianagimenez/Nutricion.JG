@@ -1,0 +1,149 @@
+/*CSS DEL INDEX DE LA PAGINA*/
+
+/* Titulo principal con imagen de fondo*/
+
+.seccionCarrusel {
+    margin-top: $margin-top;
+}
+
+.fondosIndex {
+    height: 96vh;
+    background: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.fondosIndex::before {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.4;
+}
+
+.tituloFondo{
+    margin-bottom: 2rem;
+}
+
+.titulosImagenFondo {
+    @include titulosPrincipales (40px, white, none)
+}
+
+.botonFondo1 {
+    @include botones (15px)
+}
+
+/*Seccion sobre mi*/
+
+.seccionSobreMi {
+    padding: $padding;
+}
+
+.tituloSobreMi {
+    margin-top: $margin-top;
+}
+
+.sobreMiImg {
+    @include flexbox (row);
+    @include AnchoAlto (100%,80vh);
+}
+
+.fotoNutricionista {
+    @include AnchoAlto (45rem,30rem);
+}
+
+.sobreMiTexto {
+    @include textos (20px);
+    height: fit-content;
+}
+
+.botonConoceMas {
+    text-align: center;
+    margin: 2.5rem 0; 
+}
+/* Servicios*/ 
+
+.seccionServicios {
+    @include flexbox (row);
+    @include AnchoAlto (100%,90vh);
+}
+
+.contenedorServicios {
+    position: relative;
+    @include AnchoAlto (310px,210px);
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+}
+
+.contenedorServicios a {
+    @extend %estilosListas;
+}
+
+.contenedorServicios p:hover {
+    @extend %hoverRojo;
+}
+
+.contenedorServicios .clicMasInfo {
+    opacity: 0;
+}
+
+.contenedorServicios:hover .textoDelServicio {
+    margin-top: 40px;
+    transition: all 1.1s ease-out;
+}
+
+.contenedorServicios:hover .clicMasInfo {
+    opacity: 1;
+    max-width: 270px;
+    margin: auto;
+    font-size: 15px;
+    transition: all 1.1s ease-out;
+}
+
+.imgServicios {
+    @include AnchoAlto (100%,100%);
+    border-radius: 6px;
+}
+
+.capaIndex {
+    position: absolute;
+    @include AnchoAlto (100%,100%);
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.textoDelServicio {
+    @include titulosPrincipales (25px,white,none);
+    margin-top: 80px;
+}
+
+/*Contacto*/
+
+.contenedorContacto {
+    width: $width;
+}
+
+.mapaConsultorio {
+    @include AnchoAlto (500px,400px);
+    margin: 2rem 0;
+}
+
+.direccionConsultorio {
+    align-self: center;
+    height: fit-content;
+}
+
+.textoMapa{
+    @include textos (20px);
+}
+
+#form5Example21 {
+    text-align: center;
+}

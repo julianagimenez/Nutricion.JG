@@ -1,0 +1,62 @@
+/*CSS PAGINA DE RESERVAR EL TURNO*/
+
+.tituloReserva {
+    margin-top: 6rem;
+}
+
+.contenedorReservas {
+    width: $width;
+}
+
+.cajaReservas {
+    width: 40%;
+}
+.cajaReservas form {
+    margin-bottom: 3rem;
+}
+
+.reservas {
+    @include AnchoAlto (100%,90vh);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #223843;
+    border-radius: 30px;
+    position: relative;
+    input {
+        @include AnchoAlto (60%,auto);
+        font-family: 'Hind Vadodara', sans-serif;
+        color: white;
+        background-color: #223843;
+        border: none;
+        border-bottom: solid 1px white;
+        &:focus {
+            outline: none;
+            font-family:'Hind Vadodara', sans-serif;
+            font-size: 15px;
+        }
+    }
+    label {
+        font-size: 15px;
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+.h2Consultorio {
+    margin-top: $margin-top;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.botonEnviarForm {
+    width: 50%;
+}

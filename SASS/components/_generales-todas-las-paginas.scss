@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap');
+
+*{
+    @extend %reseteoCss;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    background-color: $fondo;
+}
+
+h1 {
+    @include titulosPrincipales (50px, #223843, none)
+}
+
+h2,h3,h4 { 
+    @include titulosPrincipales (40px, #fff1e6, #223843 )
+}
+
+h5,h6 {
+    @include titulosPrincipales (30px,#fff1e6, #223843 )
+}
+
+main {
+    padding: $padding;
+}
+
+footer {
+    @extend %footer; 
+}
+
+.container-fluid {
+    padding: $padding;
+    width: $width;
+}
+
+header {
+    @extend %header;
+}
+
+.linksNavegacion {
+    @extend %linksNav;
+}
+#ancorNav1,#ancorNav2,#ancorNav3,#ancorNav4  {
+    @extend %anchorNav;
+}
+
+#ancorNav1:hover,#ancorNav2:hover,#ancorNav3:hover,#ancorNav4:hover{
+    @extend %hoverRojo;
+}
+
+.logoPrincipal {
+    @extend %logo;
+}
+
+.navbar {
+    padding: $padding;
+}
+
+.botonWhatsapp {
+    width: 7rem;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+}
+
+.parrafoModal {
+    color: black;
+    text-align: center;
+}
+.tituloModal {
+    font-size: 25px;
+}
+.botonModalWhatsapp {
+    width: 7rem;
+}
+
+.subrayadoFooter {
+    text-decoration: none;
+    color:#fff1e6;
+    text-decoration: underline;
+}
+
+.subrayadoFooter:hover {
+    color:#fff1e6;
+    text-decoration: underline;
+}

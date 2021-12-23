@@ -1,0 +1,81 @@
+/*CELULARES PLANES DE ALIMENTACIÓN*/ 
+
+@media only screen and (max-width: 480px){
+    .titPlanes {
+        font-size: 35px;
+    }
+    .planesSeccion1, .planesSeccion2, .planesSeccion3, .planesSeccion4,.otrosServicios {
+        padding-left: 1rem;
+        margin: 1rem 0;
+    }
+    .juliAtendiendo, .planesImg2, .planesImg3, .planesImg4 {
+        margin-bottom: 0;
+    }
+    .textosPlanes, .listaDePlanes ul li {
+        font-size: 17px;
+    }
+    .titulos {
+        font-size: 28px;
+    }
+    .planesImg2, .planesImg3, .planesImg4 {
+        @include AnchoAlto (25rem,12rem)
+    }
+    .tituloReserva, .h3Consultorio {
+        margin-top: 0;
+    }
+    .contenedorReservas {
+        padding-left: 1.5rem;
+    }
+    .cajaReservas {
+        width: $width;
+    }
+    .mapaConsultorio2{
+        height: 250px;
+    }
+    .otrosServicios p{
+        font-size: 23px;
+    }
+    .textoMapa {
+        font-size: 17px;
+        margin-top: 1rem;
+    }
+}
+
+/*TABLET PLANES DE ALIMENTACION*/
+
+@media (min-width:481px) and (max-width: 1024px) {
+    .textosPlanes, .listaDePlanes ul li  {
+        font-size: 18px;
+    }
+    .titulos {
+        font-size: 30px;
+    }
+    .planesSeccion1, .planesSeccion2, .planesSeccion3, .planesSeccion4,.otrosServicios {
+        padding-left: 1rem;
+        margin: 1rem 0;
+    }
+    .juliAtendiendo, .planesImg2, .planesImg3, .planesImg4 {
+        margin-bottom: 0;
+    }
+    .planesImg2, .planesImg3, .planesImg4 {
+        @include AnchoAlto (30rem,18rem)
+    }
+    .tituloReserva, .h3Consultorio {
+        margin-top: 0;
+    }
+    .contenedorReservas {
+        padding: 1rem 1rem 1rem 2.5rem;
+    }
+    .cajaReservas {
+        width: 80%;
+    }
+    .mapaConsultorio2{
+        height: 250px;
+    }
+    .otrosServicios p{
+        font-size: 25px;
+    }
+    .textoMapa{
+        font-size: 19px;
+    }
+}
