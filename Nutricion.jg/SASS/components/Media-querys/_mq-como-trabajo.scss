@@ -1,0 +1,19 @@
+/* CELULAR COMO TRABAJO*/
+@media only screen and (max-width: 480px) {
+    .textosComoTrabajo {
+        font-size: 15px;
+        margin: 1rem 0;
+    }
+    .listaBeneficios {
+        padding-left: 1.5rem;
+        font-size: 15px;
+    }
+}
+
+/*TABLET RESERVA TU TURNO*/
+@media (min-width: 481px) and (max-width: 1200px) {
+    .textosComoTrabajo {
+        margin: 1rem 0;
+    }
+}
+

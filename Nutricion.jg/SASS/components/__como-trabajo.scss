@@ -1,0 +1,35 @@
+/*CSS PAGINA COMO TRABAJO*/
+.tituloComoTrabajo {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.comoTrabajoParteIzquierda {
+    margin: 2rem 0;
+    @include flexbox (row);
+}
+
+.fotoAtencionOnline, .fotoAtencionDomicilio, .fotoOtrosBeneficios {
+    width: 35rem;
+}
+
+.comoTrabajoParteDerecha {
+    @include flexbox (row-reverse);
+    margin: 2rem 0;
+}
+.contenedorBeneficios {
+    margin: 2rem 0;
+}
+.listaBeneficios {
+    padding-left: 2.5rem;
+    margin-top: 1rem;
+    font-size: 17px;
+    li{
+        margin-top: 1rem;
+        font-weight: 400;
+    }
+}
+.textosComoTrabajo {
+    font-size: 17px;
+    text-align: center;
+}

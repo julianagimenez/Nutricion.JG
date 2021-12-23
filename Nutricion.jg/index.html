@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0">
+    <meta name="description" content="Mejorá tu alimentación a través del desarrollo de hábitos saludables y sostenibles en el tiempo. Mi unico objetivo es ayudarte a lograr tus metas y acompañarte a lo largo de todo el proceso. Atiendo online, presencial y a domicilio realizando planes alimentarios, antropometrias, talleres de educacion alimentaria y más. Empezá hoy con el cambio que te mereces.">
+    <meta name="keywords" content="Nutricion, nutricionista, alimentacion saludable, comida, calidad de vida, planes de alimentacion, personalizado, antropometria, talleres de alimentacion, consultorio, a domicilio, presencial, online, virtual, salud,alimentos">
+    <title>NUTRICION JG: Mejorá tu alimentación</title>
+    <link rel="shortcut icon" href="Imagenes/Logo-JG-Nutricion.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="SASS/main.css">
+    <script src="https://kit.fontawesome.com/a31a6b2861.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--Barra de navegacion-->
+    
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Imagenes/Logo-JG-Nutricion.jpeg" alt="Logo Nutrición JG" width="90" loading="lazy" class="d-inline-block align-text-top logoPrincipal">
+                </a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-evenly linksNavegacion">
+                        <li class="nav-item">
+                            <a id="ancorNav1" class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="ancorNav2" class="nav-link" href="index.html#serviciosPaginaInicio">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="ancorNav3" class="nav-link" href="reserva-tu-turno.html">Reserva tu turno</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="ancorNav4" class="nav-link" href="como-trabajo.html">¿Cómo trabajo?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!--Foto principal de presentación con Titulo de la pagina-->
+
+    <main class="container-fluid">
+        <section id="carouselExampleCaptions" class="carousel slide seccionCarrusel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active fondosIndex">
+                    <img src="Imagenes/Juli-fondo.jpg" class="d-block w-100" loading="lazy" alt="Fondo de la pagina en un carrusel de fotos">
+                    <div class="carousel-caption tituloFondo">
+                        <h1 class="titulosImagenFondo">Nutrición J.G</h1>
+                        <div>
+                            <a href="reserva-tu-turno.html">
+                                <button class="botonFondo1">Reserva tu turno</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item fondosIndex">
+                    <img src="Imagenes/foto-compu-mano.jpg" class="d-block w-100" loading="lazy" alt="Fondo de la pagina en un carrusel de fotos">
+                    <div class="carousel-caption tituloFondo">
+                        <p class="titulosImagenFondo">Nutrición J.G</p>
+                        <div>
+                            <a href="reserva-tu-turno.html">
+                                <button class="botonFondo1">Reserva tu turno</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item fondosIndex">
+                    <img src="Imagenes/Juli-compu-carrusel.jpg" class="d-block w-100" loading="lazy" alt="Fondo de la pagina en un carrusel de fotos">
+                    <div class="carousel-caption tituloFondo">
+                        <p class="titulosImagenFondo">Nutrición J.G</p>
+                        <div>
+                            <a href="reserva-tu-turno.html">
+                                <button class="botonFondo1">Reserva tu turno</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+<!--Sobre mi-->
+        
+        <section class="container-fluid seccionSobreMi">
+            <h2 class="tituloSobreMi titulos">Sobre mi</h2>
+            <div class="row d-flex justify-content-evenly sobreMiImg">
+                <img src="Imagenes/Foto-juli-gimenez-nutricionista.jpg" alt="Foto Juli Gimenez nutricionista" loading="lazy" class="col-12 col-lg-6 img-fluid fotoNutricionista">
+                <div class="col-12 col-lg-6">
+                    <p class="sobreMiTexto"> ¡Hola! Mi nombre es Juli y quiero darte la bienvenida a mi página web. Como Licenciada en Nutrición, creo que la base de una vida saludable comienza en torno a lo alimentario, es por esto que pongo siempre mi mayor esfuerzo en adaptar los planes de alimentación 100% a cada individuo considerando sus hábitos de vida y sus necesidades nutricionales. <br> <strong> Mi objetivo </strong> es que trabajemos juntos para mejorar tu relación con la comida y que, gracias a esto, puedas tener una alimentación saludable y una mejor calidad de vida. <br> Vamos a alcanzar nuestras metas paulatinamente, convirtiendo pequeños cambios en un habito diario.</p>
+                    <div class="botonConoceMas">
+                        <a href="sobre-mi.html">
+                            <button class="botonFondo1"> Conoce más</button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+<!--Servicios en general -->
+
+        <section class="container-fluid">
+            <h2 id="serviciosPaginaInicio" class="titulos">Servicios</h2>
+            <div class="row d-flex justify-content-evenly seccionServicios">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center">
+                    <div class="contenedorServicios">
+                        <a href="planes-de-alimentación.html">
+                        <img src="Imagenes/Planes-de-alimentacion.jpg" loading="lazy" alt="Servicio de planes de alimentación personalizados para cada persona" class="imgServicios">
+                            <div class="capaIndex">
+                                <p class="textoDelServicio">Planes de alimentación</p>
+                                <p class="clicMasInfo">Hacé clic para más información</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center imagenesServicios">
+                    <div class="contenedorServicios">
+                        <a href="antropometrias.html">   
+                        <img src="Imagenes/antro-index.jpg" loading="lazy" alt="Servicio de antropometrias para conocer la composicion corporal" class="imgServicios">
+                            <div class="capaIndex">
+                                <p class="textoDelServicio">Antropometrias</p>
+                                <p class="clicMasInfo">Hacé clic para más información</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center  imagenesServicios">
+                    <div class="contenedorServicios">
+                        <a href="talleres-de-alimentación.html">
+                        <img src="Imagenes/Foto-taller-de-alimentacion.jpeg" loading="lazy" alt="Servicio de talleres de alimentación para grupos presencial u online" class="imgServicios">
+                            <div class="capaIndex">
+                                <p class="textoDelServicio">Talleres de alimentación</p>
+                                <p class="clicMasInfo">Hacé clic para más información</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center imagenesServicios">
+                    <div class="contenedorServicios">
+                        <a href="como-trabajo.html#atencionOnline">
+                        <img src="Imagenes/online-index.jpg" loading="lazy" alt="Servicio de Consultas Online" class="imgServicios">
+                            <div class="capaIndex">
+                                <p class="textoDelServicio">Atención online</p>
+                                <p class="clicMasInfo">Hacé clic para más información</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center imagenesServicios">
+                    <div class="contenedorServicios">
+                        <a href="como-trabajo.html#atencionDomicilio">
+                        <img src="Imagenes/domicilio-index.jpg" loading="lazy" alt="Servicio de atención a domicilio" class="imgServicios">
+                            <div class="capaIndex">
+                                <p class="textoDelServicio">Atención a domicilio</p>
+                                <p class="clicMasInfo">Hacé clic para más información</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center imagenesServicios">
+                    <div class="contenedorServicios">
+                        <a href="como-trabajo.html#otrosBeneficiosConsultas">
+                        <img src="Imagenes/foto-compu-mano.jpg" loading="lazy" alt="Servicio de atención a domicilio" class="imgServicios">
+                            <div class="capaIndex">
+                                <p class="textoDelServicio">Otros beneficios</p>
+                                <p class="clicMasInfo">Hacé clic para más información</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- ¿DONDE ATIENDO?-->
+
+        <section class="container-fluid">
+            <h2 class="contacto titulos"> ¿Dónde atiendo?</h2>
+            <div class="row d-flex justify-content-evenly contenedorContacto">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9966672702735!2d-58.53884279797884!3d-34.57895088139242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb776c10a751f%3A0xdb2ac8a876043fa1!2sBelgrano%203953%2C%20San%20Mart%C3%ADn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1633394813154!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" class="col-12 col-lg-6 mapaConsultorio">
+                </iframe>       
+                <div class="col-12 col-lg-6 direccionConsultorio">
+                    <p class="textoMapa"> <strong>Dirección: </strong>Belgrano 3953 (Localidad de San Martin) <br><br> <strong> Colectivos: </strong> 57, 78, 87, 161, 169, 176 <br><br> <strong>Trenes:</strong> A menos de 10 cuadras del Ferrocarril General Bartolomé Mitre (FCGBM) 
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!--Footer de la pagina-->
+
+    <footer class="text-center text-white">
+        <section class="container p-4">
+            <h5>Encontrame en mis redes sociales:</h5>
+            <div>
+                <a target="_blank" class="btn btn-outline-light btn-floating m-3" href="https://wa.me/+5491124028206?text=Hola%20Juliana!%20Quería%20más%20información%20acerca%20de" role="button"> 
+                    <i title="Icono de whatsapp" class="fab fa-whatsapp"></i>
+                </a>
+                <a target="_blank" class="btn btn-outline-light btn-floating m-3" href="https://www.instagram.com/nutricion.jg/" role="button">  
+                    <i title="Icono de Instagram" class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" class="btn btn-outline-light btn-floating m-3" href="https://www.facebook.com/Nutrici%C3%B3njg-113083484374716/?ref=py_c" role="button">
+                    <i title="Icono de facebook" class="fab fa-facebook-f"></i>
+                </a>
+                <a target="_blank" class="btn btn-outline-light btn-floating m-3" href="mailto:licjulianagimenez@gmail.com?subject=Quiero%20más%20información&body=Hola%20Juliana!%20Quería%20más%20información%20acerca%20de" role="button">
+                    <i title="Icono de mail" class="far fa-envelope"></i>
+                </a>
+                <a target="_blank" class="btn btn-outline-light btn-floating m-3" href="https://www.linkedin.com/in/juliana-gimenez-9651a5196/?originalSubdomain=ar" role="button">
+                    <i title="Icono de Linkedin" class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div>
+                <form action="archivo.php" method="POST">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2 textoFooterDescuentos">
+                                Accedé a increibles descuentos y no te pierdas ninguna novedad:
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white">
+                                <input type="email" id="form5Example21" class="form-control placeholderFooter" placeholder="Correo electronico"/>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-outline-light mb-4" data-bs-toggle="modal" data-bs-target="#ModalDelFooter">
+                                Suscribite!! 
+                            </button>
+                            <div class="modal fade" id="ModalDelFooter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title tituloModal" id="exampleModalLabel">Esta funcion no esta disponible actualmente.</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="parrafoModal"> Podés comunicarte directamente a través de Whatsapp. <br> Disculpas por las molestias causadas. <br> Gracias! </p> 
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            <a target="_blank" class="pieDePagina" href="https://wa.me/+5491124028206?text=Hola%20Juliana!%20Quería%20suscribirme%20a%20los%20mails%20de%20descuentos%20y%20beneficios.%20Mi%20mail%20es:">
+                                                <img src="Imagenes/Boton-Whatsapp.png" loading="lazy" alt="Boton Whatsapp" class="botonModalWhatsapp">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="text-center">
+                <p>LIC. Juliana Gimenez</p>
+                <p>MN:10.553</p>
+                <p>Copyright © 2021. Todos los derechos reservados</p>
+                <p>Desarrollado por <a class="subrayadoFooter" href="https://github.com/alanbensi"  target="_blank">Alan Bensi</a></p>
+                <a target="_blank" class="pieDePagina" href="https://wa.me/+5491124028206?text=Hola%20Juliana!%20Quería%20más%20información%20acerca%20de">
+                    <img src="Imagenes/Boton-Whatsapp.png" loading="lazy" alt="Boton Whatsapp" class="botonWhatsapp">
+                </a>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
