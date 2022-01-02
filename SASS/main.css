@@ -321,6 +321,10 @@ main {
   text-align: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /*CSS PAGINA SOBRE MI*/
 .titPagSobreMi {
   margin-top: 6rem;
@@ -411,7 +415,6 @@ main {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
-  width: 100%;
 }
 
 .juliAtendiendo {
@@ -443,7 +446,6 @@ main {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
-  width: 100%;
 }
 
 .planesImg2, .planesImg3, .planesImg4 {
