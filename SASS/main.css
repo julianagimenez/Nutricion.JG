@@ -415,6 +415,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .juliAtendiendo {
@@ -446,6 +447,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .planesImg2, .planesImg3, .planesImg4 {
@@ -877,7 +879,6 @@ body {
 @media (min-width: 1300px) and (max-width: 1440px) {
   .fotoNutricionista {
     width: 40rem;
-    height: 28rem;
   }
 }
 

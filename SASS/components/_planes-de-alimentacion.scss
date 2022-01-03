@@ -8,7 +8,7 @@
 .planesSeccion1, .planesSeccion3 {
     @include flexbox (row);
     margin-top: $margin-top;
-    // width: $width;
+    width: $width;
 }
 
 .juliAtendiendo {
@@ -29,7 +29,7 @@
 .planesSeccion2, .planesSeccion4 {
     @include flexbox (row-reverse);
     margin-top:$margin-top;
-    // width: $width;
+    width: $width;
 }
 
 .planesImg2, .planesImg3, .planesImg4 {
